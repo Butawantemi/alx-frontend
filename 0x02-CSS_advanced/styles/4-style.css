@@ -6,6 +6,8 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --color-text: var(var(--color-primary))
+    --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 /* Scroll to top button */
