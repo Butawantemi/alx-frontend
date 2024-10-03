@@ -18,12 +18,14 @@
 /* Scroll to top button */
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 /* Backgroung color */
 body {
     background-color: var(--color-text);
     font-family: var(--font-family-base);
+    font-size: var(--font-size-mediun);
 }
 
 h1, h2, h3, h4, h5, h6 {
