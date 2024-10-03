@@ -6,7 +6,7 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --color-text: var(var(--color-primary));
-    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-base: 'Open sans' 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
     --font-size-mediun: 1.6rem;
