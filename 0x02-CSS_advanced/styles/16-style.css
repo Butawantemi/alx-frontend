@@ -446,3 +446,7 @@ a:active {
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
+
+.container {
+    height: 960px;
+}
