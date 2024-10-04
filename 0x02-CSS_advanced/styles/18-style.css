@@ -382,6 +382,13 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-mediun);
+    --nav-item-letter-spacing: 0.4rem;
+    --nav-item-display: inline-block;
+    --nav-item-margin: 3rem 0 0;
+    --nav-item-link-hover: var(var(--color-primary));
 }
 
 /* universal box-sizing */
@@ -458,6 +465,10 @@ nav {
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
 
 .section-header {
