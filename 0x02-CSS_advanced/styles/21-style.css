@@ -491,6 +491,11 @@ ul.row {
     padding: 5rem;
 }
 
+[class^=".col-"] {
+    float: left;
+    padding: 5rem;
+}
+
 /* Section */
 .section-header {
     text-align: var(--section-header-align);
