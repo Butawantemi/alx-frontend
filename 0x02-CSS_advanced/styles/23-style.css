@@ -548,6 +548,14 @@ section {
     color: var(--color-text);
 }
 
+.footer-address {
+    color: var(--color-text)
+}
+
+.social-link {
+    display: block;
+}
+
 .footer ul {
     text-align: right;
 }
