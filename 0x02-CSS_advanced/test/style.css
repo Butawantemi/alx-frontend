@@ -14,5 +14,11 @@ body {
 }
 
 .field label {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0.625rem 0.625rem;
+    color: #030104;
+    background-color: #efe4f7;
+    
 }
