@@ -491,6 +491,12 @@ ul.row {
     padding: 5rem;
 }
 
+.footer-copyright {
+    margin: 0;
+    font-size: var(--font-size-small);
+    color: var(--color-text);
+}
+
 
 /* Section */
 .section-header {
