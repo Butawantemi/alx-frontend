@@ -434,6 +434,18 @@ a:active {
     color: var(--color-primary);
 }
 
+/* navigition bar */
+.navbar-menu {
+    float: right;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    line-height: none;
+    text-align: center;
+}
+
 .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
