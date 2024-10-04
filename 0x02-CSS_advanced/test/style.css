@@ -1,0 +1,18 @@
+body {
+    padding: 25%;
+    box-sizing: border-box;
+}
+.field {
+    position: relative;
+}
+
+.field input {
+    color: #565656;
+    background-color: none;
+    padding: 0.625rem;
+    border: 2px solid #030104;
+}
+
+.field label {
+    position: relative;
+}
