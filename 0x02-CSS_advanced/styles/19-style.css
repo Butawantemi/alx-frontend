@@ -539,6 +539,11 @@ section {
     margin-right: auto;
 }
 
+/* Footer */
 .footer {
     padding: var(--footer-padding);
+}
+
+.footer ul {
+    text-align: center;
 }
