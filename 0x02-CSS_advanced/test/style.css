@@ -27,3 +27,13 @@ body {
                 background-color 250ms,
                 border-color 250ms;
 }
+
+.field:focus-within label,
+.field:not(:has(:placeholder-shown)) label {
+    transition: 0.625rem -1rem;
+    border-color: #030104;
+}
+
+.field::placeholder {
+    color: transparent;
+}
