@@ -491,8 +491,6 @@ ul.row {
     padding: 5rem;
 }
 
-
-
 /* Section */
 .section-header {
     text-align: var(--section-header-align);
@@ -547,4 +545,10 @@ section {
 
 .footer ul {
     text-align: right;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
