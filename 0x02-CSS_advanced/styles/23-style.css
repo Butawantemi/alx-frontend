@@ -556,6 +556,10 @@ section {
     display: block;
 }
 
+.social-link > svg {
+    fill: var(--color-text)
+}
+
 .footer ul {
     text-align: right;
 }
