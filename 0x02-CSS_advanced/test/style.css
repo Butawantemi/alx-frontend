@@ -21,10 +21,6 @@ body {
     position: relative;
 }
 
-.space-btn {
-    height: 20px;
-}
-
 .field input {
     color: #565656;
     background: none;
@@ -53,4 +49,11 @@ body {
 
 .field::placeholder {
     color: transparent;
+}
+
+.btn {
+    padding: 0.625rem 1.25rem;
+    background-color: #565656;
+    color: #efe4f7;
+    border: none;
 }
