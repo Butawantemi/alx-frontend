@@ -1,14 +1,15 @@
 body {
-    padding: 25%;
+    padding: 25%; /* Adjust as needed */
     box-sizing: border-box;
 }
+
 .field {
     position: relative;
 }
 
 .field input {
     color: #565656;
-    background-color: none;
+    background: none;
     padding: 0.625rem;
     border: 2px solid #030104;
 }
@@ -23,14 +24,12 @@ body {
     padding-inline: 0.25rem;
     border: 2px solid transparent;
     pointer-events: none;
-    transition: translate 250ms,
-                background-color 250ms,
-                border-color 250ms;
+    transition: translate 250ms, background-color 250ms, border-color 250ms;
 }
 
 .field:focus-within label,
 .field:not(:has(:placeholder-shown)) label {
-    transition: 0.625rem -1rem;
+    translate: 0.625rem -1rem;
     border-color: #030104;
 }
 
