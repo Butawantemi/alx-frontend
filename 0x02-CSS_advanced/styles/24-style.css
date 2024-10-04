@@ -537,6 +537,17 @@ section {
     margin-right: auto;
 }
 
+/* Card */
+.card-services .card-title {
+    margin: 0;
+}
+
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+
 /* Footer */
 .footer {
     padding: var(--footer-padding);
