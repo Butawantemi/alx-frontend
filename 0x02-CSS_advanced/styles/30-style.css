@@ -675,6 +675,10 @@ section-hero .section-inner {
     content: "";
 }
 
+.card-work:hover .card-title {
+    opacity: 1;
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
