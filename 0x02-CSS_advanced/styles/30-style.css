@@ -652,6 +652,14 @@ section-hero .section-inner {
     background-color: rgba(0, 0, 0, 0.7 );
 }
 
+.card-work .card-title {
+    text-align: center;
+    margin: 0;
+    opacity: 0;
+    height: 100%;
+    position: relative;
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
