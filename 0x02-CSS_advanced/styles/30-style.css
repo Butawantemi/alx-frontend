@@ -638,7 +638,7 @@ section-hero .section-inner {
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    top: 0;
+    vertical-align: bottom;
 }
 
 .button {
