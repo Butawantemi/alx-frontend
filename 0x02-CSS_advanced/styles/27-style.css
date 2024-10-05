@@ -546,6 +546,10 @@ section {
     margin-right: auto;
 }
 
+section-hero {
+    background-size: 90rem auto;
+}
+
 /* Card */
 .card-services .card-title {
     margin: 0;
