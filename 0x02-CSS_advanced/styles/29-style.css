@@ -512,6 +512,11 @@ nav {
     height: 2rem;
 }
 
+.nav .nav-link:hover::before {
+    background-color: var(--color-primary);
+    width: 100%;
+}
+
 ul.row {
     margin: 0;
     padding: 0;
