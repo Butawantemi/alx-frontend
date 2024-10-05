@@ -574,6 +574,12 @@ section {
     height: 10rem;
 }
 
+.card-testimonial .card-quote cite {
+    display: block;
+    padding-top: 1rem;
+    background-color: var(--color-primary);
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
