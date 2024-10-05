@@ -568,6 +568,12 @@ section {
     text-align: center;
 }
 
+.card-testimonial .card-avatar {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
