@@ -648,6 +648,10 @@ section-hero .section-inner {
     z-index: 1;
 }
 
+.card-work:hover .card-inner {
+    background-color: rgba(0, 0, 0, 0.7 );
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
