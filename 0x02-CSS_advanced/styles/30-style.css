@@ -660,6 +660,11 @@ section-hero .section-inner {
     position: relative;
 }
 
+.card-work .card-title a{
+    display: block;
+    
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
