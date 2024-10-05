@@ -666,6 +666,15 @@ section-hero .section-inner {
     padding-top: 45%;
 }
 
+.card-work .card-title a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
