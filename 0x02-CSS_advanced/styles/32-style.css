@@ -656,6 +656,7 @@ section-hero .section-inner {
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
+    transition: var(–transition-duration) var(transition-cubic-bezier);
 }
 .card-work .card-inner {
     position: relative;
