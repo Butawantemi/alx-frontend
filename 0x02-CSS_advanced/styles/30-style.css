@@ -629,6 +629,11 @@ section-hero .section-inner {
     background-color: var(--color-primary);
 }
 
+.card-work .card-outer {
+    position: relative;
+    overflow: hidden;
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
