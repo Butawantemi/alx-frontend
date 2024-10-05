@@ -633,6 +633,8 @@ section-hero .section-inner {
     top: -4.5rem;
     left: -1rem;
     color: #efeded;
+    font-size: 10rem;
+    z-index: 0;
 }
 
 .card-testimonial .card-quote cite {
