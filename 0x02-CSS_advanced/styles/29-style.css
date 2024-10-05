@@ -502,6 +502,14 @@ nav {
     color: var(--nav-item-link-hover);
 }
 
+.nav .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
 ul.row {
     margin: 0;
     padding: 0;
