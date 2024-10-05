@@ -512,6 +512,7 @@ nav {
     background-color: var(--color-white);
     width: 0;
     height: 2rem;
+    transition: var(–transition-duration) var(transition-cubic-bezier);
 }
 
 .nav .nav-link:hover::before {
