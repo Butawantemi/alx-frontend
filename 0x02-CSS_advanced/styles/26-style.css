@@ -564,6 +564,10 @@ section {
 
 }
 
+.card-testimonial {
+    text-align: center;
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
