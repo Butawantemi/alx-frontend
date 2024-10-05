@@ -695,6 +695,14 @@ section-hero .section-inner {
     opacity: 1;
 }
 
+.card-work:hover .card-image {
+    transform: scale(1.2);
+}
+
+.card-work:hover .card-image 
+
+
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
