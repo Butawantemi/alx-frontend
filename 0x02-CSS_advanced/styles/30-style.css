@@ -640,6 +640,13 @@ section-hero .section-inner {
     object-fit: cover;
     vertical-align: bottom;
 }
+.card-work .card-inner {
+    position: relative;
+    top: -1rem;
+    left: -1rem;
+    right: -1rem;
+    z-index: 1;
+}
 
 .button {
     display: var(--button-display);
