@@ -634,6 +634,13 @@ section-hero .section-inner {
     overflow: hidden;
 }
 
+.card-work .card-image {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
