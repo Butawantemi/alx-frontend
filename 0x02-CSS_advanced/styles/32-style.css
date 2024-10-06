@@ -621,9 +621,7 @@ ul.row {
   padding: 5rem;
 }
 
-
-
-/* Card */
+/* CARD */
 .card-services .card-title {
   margin: 0;
 }
@@ -641,6 +639,10 @@ ul.row {
 
 }
 
+.card-category {
+  color: var(--color-primary);
+}
+
 .card-testimonial {
   text-align: center;
 }
@@ -649,20 +651,6 @@ ul.row {
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
-}
-
-.card-testimonial .card-quote {
-  position: relative;
-}
-
-.card-testimonial .card-quote::before {
-  content: "\201C";
-  position: absolute;
-  top: -4.5rem;
-  left: -1rem;
-  color: #efeded;
-  font-size: 10rem;
-  z-index: 0;
 }
 
 .card-testimonial .card-quote cite {
@@ -683,13 +671,24 @@ ul.row {
   vertical-align: bottom;
   transition: var(–transition-duration) var(transition-cubic-bezier);
 }
+
 .card-work .card-inner {
-  position: relative;
+  position: absolute;
   top: -1rem;
   left: -1rem;
   right: -1rem;
   z-index: 1;
   transition: var(–transition-duration) var(transition-cubic-bezier);
+}
+
+.card-testimonial .card-quote::before {
+  content: "\201C";
+  position: absolute;
+  top: -4.5rem;
+  left: -1rem;
+  color: #efeded;
+  font-size: 10rem;
+  z-index: 0;
 }
 
 .card-work:hover .card-inner {
