@@ -602,6 +602,10 @@ ul.row {
     .header-logo {
         flex-basis: 79%;
     }
+
+    .header .menu-icon {
+        display: none;
+    }
 }
 
 /* Footer
