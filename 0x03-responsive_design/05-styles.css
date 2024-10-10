@@ -305,11 +305,16 @@
         transition: max-height .2s ease-out;
     }
 
-    .header .navbar-menu .navicon {
+    .header .navbar-icon {
         cursor: pointer;
         padding: 2.5rem;
         position: relative;
         user-select: none;
+    }
+
+    .header .navbar-icon .navicon {
+        background: var(--color-white);
+        display: block;
     }
   }
   
