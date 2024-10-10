@@ -551,7 +551,11 @@ ul.row {
     display: none;
 }
 
-.menu-btn:checked+.navbar-menu .nav {
+.header .menu-btn:checked ~.navbar-menu {
+    display: block;
+}
+
+.header .menu-btn:checked ~.navbar-menu .nav {
     max-height: 100%;
     overflow: inherit;
 }
@@ -670,6 +674,12 @@ ul.row {
     align-items: flex-start;
     justify-content: center;
     min-height: 35vh;
+}
+
+@media screen and (max-width: 767px) {
+    .section-hero {
+        margin: -0.1rem 0;
+    }
 }
 
 /* Section Latest news
