@@ -330,6 +330,10 @@
         background: var(--color-white);
         transition: all .2s ease-out;
     }
+
+    .header .nemu-icon .navicon::before {
+        top: 7rem;
+    }
   }
   
   /* Header
