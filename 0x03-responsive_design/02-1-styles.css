@@ -47,7 +47,7 @@
     --line-height-big: 1.8;
   
     /** SECTION **/
-    --section-padding: 5rem 0;
+    --section-padding: 5rem 1.5rem;
     --section-header-padding: 0 0 3rem;
     --section-header-align: center;
     --section-title-font-size: var(--font-size-xx-large);
@@ -217,6 +217,10 @@
   
   .col-1-2 {
     width: calc((100% / 2) - 2rem);
+  }
+
+  @media (min-width: 767px) {
+    
   }
   
   /* Navbar
@@ -401,13 +405,15 @@
   }
   /* Section Latest news
       ============================= */
+
+  .section-latest-news .row {
+    flex-direction: row-reverse;
+  }
+
   @media (min-width: 768px) {
     .section-latest-news .row {
       flex-direction: column;
     }
-  }
-  .section-latest-news .row {
-    flex-direction: row-reverse;
   }
   
   /* Section SERVICES
