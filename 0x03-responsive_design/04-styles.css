@@ -295,6 +295,7 @@
 
     .navbar-menu {
       display: none;
+      flex: 1;
     }    
   }
   
