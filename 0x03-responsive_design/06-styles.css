@@ -680,6 +680,10 @@ ul.row {
     .section-hero {
         margin: -0.1rem 0;
     }
+
+    .section-homepage {
+        background-position: 85% 0;
+    }
 }
 
 /* Section Latest news
