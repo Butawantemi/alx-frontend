@@ -892,6 +892,13 @@
   .post-comments .section-title {
     font-variant: small-caps;
   }
+
+  @media screen and(max-width: 767px) {
+    .post-comments {
+        width: calc(100% - 4rem);
+        margin: 2rem;
+    }
+  }
   
   /* Basic form
       ============================= */
