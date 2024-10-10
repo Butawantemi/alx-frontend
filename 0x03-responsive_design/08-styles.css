@@ -845,6 +845,12 @@ ul.row {
         color: var(--color-white);
         position: relative;
     }
+
+    .card-work .card-title {
+        opacity: 1;
+    }
+
+    .card-work .card-title a
 }
 
 /* Card SERVICES
