@@ -334,6 +334,10 @@
     .header .nemu-icon .navicon::before {
         top: 7rem;
     }
+
+    .header .nemu-icon .navicon::after {
+        top: -.7rem;
+    }
   }
   
   /* Header
