@@ -558,10 +558,13 @@
     min-height: 35vh;
   }
 
-  .section-hero .article-page {
+  .article-page .section-hero {
     margin-top: -8.5rem;
     padding-top: 5rem;
   }
+
+
+
   /* Section Latest news
       ============================= */
   
@@ -787,6 +790,7 @@
   .post {
     display: flex;
     align-items: baseline;
+    margin: 0 2rem;
   }
   
   .post-content {
@@ -816,19 +820,15 @@
     text-align: center;
   }
 
-  .post {
-    margin: 0 2rem;
-  }
-
   @media screen and (max-width: 767px) {
     .post {
-        flex-direction: column;
-        margin: 2rem;
+      flex-direction: column;
+      margin: 2rem;
     }
-
     .post-content {
-        padding-left: 0;
+      padding-left: 0;
     }
+    
   }
   
   /* Post Meta
@@ -893,12 +893,13 @@
     font-variant: small-caps;
   }
 
-  @media screen and(max-width: 767px) {
+  @media screen  and (max-width: 767px) {
     .post-comments {
-        width: calc(100% - 4rem);
-        margin: 2rem;
-        padding: 0;
+      width: calc(100% - 4rem);
+      margin: 2rem;
+      padding: 0;
     }
+    
   }
   
   /* Basic form
