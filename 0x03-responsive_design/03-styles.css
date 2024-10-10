@@ -1,3 +1,4 @@
+
 /* SUMMARY
 1. GLOBAL
 2. LAYOUT
@@ -182,7 +183,6 @@
     height: auto;
   }
   
-  
   /*** 2. LAYOUT ***/
   
   /* Layout
@@ -219,34 +219,28 @@
     width: calc((100% / 2) - 2rem);
   }
 
-  @media (min-width: 767px) {
+  @media screen and (max-width: 767px) {
     :root {
       --section-padding: 5rem 1.5rem;
       --section-body-padding: 2rem 0 0;
     }
-
-    ul.row .row {
+    ul.row, row {
       flex-direction: column;
       margin: 0;
     }
-
-    .col- {
-      margin: 0 0 3rem 0;
+    [class^="col-"] {
+          margin: 0 0 3rem 0;
     }
 
     .col-1-3, .col-1-2 {
-      width: 100%;
+          width: 100%;
     }
+
+    
   }
   
   /* Navbar
       ============================= */
-
-  @media (min-width: 767px) {
-    .navbar-menu {
-      display: none;
-    }
-  }
   
   .nav {
     margin: 0;
@@ -292,6 +286,12 @@
   .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
+  }
+
+  @media screen and (max-width: 767px) {
+    .navbar-menu {
+      display: none;
+    }    
   }
   
   /* Header
@@ -402,7 +402,7 @@
     background-image: url(images/banner-home.jpg);
     background-position: 65% 8rem;
     background-repeat: no-repeat;
-    background-size: 99rem auto;
+    background-size: 90rem auto;
   }
   
   .section-hero .section-body {
@@ -427,15 +427,15 @@
   }
   /* Section Latest news
       ============================= */
-
+  
   .section-latest-news .row {
     flex-direction: row-reverse;
   }
 
-  @media (min-width: 768px) {
+  @media screen and (max-width: 767px) {
     .section-latest-news .row {
       flex-direction: column;
-    }
+    }    
   }
   
   /* Section SERVICES
@@ -896,3 +896,4 @@
     cursor: text;
     margin: 0 1rem;
   }
+  
