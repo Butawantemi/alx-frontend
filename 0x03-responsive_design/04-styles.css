@@ -289,6 +289,10 @@
   }
 
   @media screen and (max-width: 767px) {
+    :root {
+        --nav-item-margin: 0;
+    }
+
     .navbar-menu {
       display: none;
     }    
