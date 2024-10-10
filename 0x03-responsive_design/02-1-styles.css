@@ -176,6 +176,12 @@
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
   }
+
+  main img {
+    width: 100%;
+    height: auto;
+  }
+  
   
   /*** 2. LAYOUT ***/
   
@@ -395,7 +401,11 @@
   }
   /* Section Latest news
       ============================= */
-  
+  @media (min-width: 768px) {
+    .section-latest-news .row {
+      flex-direction: column;
+    }
+  }
   .section-latest-news .row {
     flex-direction: row-reverse;
   }
