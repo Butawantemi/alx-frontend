@@ -221,7 +221,8 @@
 
   @media (min-width: 767px) {
     :root {
-      --section-padding: 
+      --section-padding: 5rem 1.5rem;
+      --section-body-padding: 2rem 0 0;
     }
   }
   
