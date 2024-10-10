@@ -551,6 +551,11 @@ ul.row {
     display: none;
 }
 
+.menu-btn:checked+.navbar-menu .nav {
+    max-height: 100%;
+    overflow: inherit;
+}
+
 /* Footer
       ============================= */
 
