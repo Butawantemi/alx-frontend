@@ -304,6 +304,13 @@
         max-height: 0;
         transition: max-height .2s ease-out;
     }
+
+    .header .navbar-menu .navicon {
+        cursor: pointer;
+        padding: 2.5rem;
+        position: relative;
+        user-select: none;
+    }
   }
   
   /* Header
