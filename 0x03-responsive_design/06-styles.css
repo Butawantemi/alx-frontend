@@ -568,6 +568,30 @@ ul.row {
     transform: rotate(45deg);
 }
 
+.header .menu-btn:checked ~.menu-icon .navicon::before
+.header .menu-btn:checked ~.menu-icon .navicon::after {
+    top: 0;
+}
+
+@media screen and (max-width: 767px) {
+    :root {
+        --header-padding: 2rem 0 0;
+    }
+    
+    .header {
+        background: var(--color-black);
+    }
+
+    .header-container {
+        flex-wrap: wrap;
+        padding: 0 1.5rem;
+    }
+
+    .header .menu-icon {
+        display: block;
+    }
+}
+
 /* Footer
       ============================= */
 
